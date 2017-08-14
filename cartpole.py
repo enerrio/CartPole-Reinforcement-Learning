@@ -93,8 +93,6 @@ def q_learning(env, agent, gamma=0.9):
             agent.create_Q(state, valid_actions)            # Create state in Q_table
             action = agent.choose_action(state)             # Choose a random action when learning
             obs, reward, done, info = env.step(action)      # Do action
-            if done:
-                reward = -1
             episode_rewards += reward                       # Receive reward
             agent.learn(state, action, reward)              # Update Q-table
             if done:
