@@ -11,6 +11,8 @@ In 'agent.py', there are 3 agent classes defined, each with a different algorith
 
 When using Q-learning, 'stats.py' plots the agent parameters (alpha & epsilon), rewards per trial, and rolling average rewards per trial. This is useful for visualizing how well the algorithm is performing.
 
+![plot](https://github.com/enerrio/CartPole-Reinforcement-Learning/blob/master/plots.png)
+
 ### Usage
 
 In a terminal or command window, navigate to the project directory `CartPole-Reinforcement-Learning/` (that contains this README) and run one of the following commands:
