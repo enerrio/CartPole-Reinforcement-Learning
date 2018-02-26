@@ -9,6 +9,7 @@ The CartPole-V0 environment is used.
 
 In 'agent.py', there are 3 agent classes defined, each with a different algorithm attached. The basic agent simply moves the cart left if the stick is leaning to the left and moves the cart right if the stick is leaning to the right. The random agent randomly chooses an action (left or right) for the cart to move at every time step. The Q-Learning agent uses a [Q-Learning](https://en.wikipedia.org/wiki/Q-learning) algorithm to choose the best action given the current observation of the cartpole.
 
+When using Q-learning, 'stats.py' plots the agent parameters (alpha & epsilon), rewards per trial, and rolling average rewards per trial. This is useful for visualizing how well the algorithm is performing.
 
 ### Usage
 
