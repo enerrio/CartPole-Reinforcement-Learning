@@ -18,7 +18,7 @@ def environment_info(env):
 
 
 def basic_guessing_policy(env, agent):
-    ''' Execute random guessing policy. '''
+    ''' Execute basic guessing policy. '''
     totals = []
     for episode in range(500):
         episode_rewards = 0
